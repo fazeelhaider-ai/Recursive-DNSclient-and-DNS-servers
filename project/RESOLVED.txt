@@ -1,0 +1,2 @@
+www.google.com 8.7.45.2 A
+mxs.rutgers.edu - Error:HOST NOT FOUND

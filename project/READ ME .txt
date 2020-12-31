@@ -1,0 +1,23 @@
+0. TEAM MEMBERS: 
+-Saira Arshad (sa1227)
+-Syed Fazeel Haider (sfh55)
+
+1. We opened up the PROJI-HNS.txt file from client and send all the lines
+one at a time. In the RS, the string was searched in the DNS table we created 
+and if the hostname existed in the table. We sent the hostname + the value of that particular
+key. Then we went and opened the 2nd socket which was connected with TS. Did the same thing over 
+there, looked to the hostname in the table and returned it.
+
+
+2. Our understanding is that the when the match isn't available, the RS sends back TSmachineName -NS 
+back to the client. Where TSmachineName is the name of the machine where the TS is running. 
+We think the project works because we tested it out with different texts.
+
+
+3. Sending one line at a time, looking it up in the table, sending it back and then start
+the next line was troublesome. We could only start out project with sending all the strings
+for a a very long time. Other than that, connecting it remotely was an issue but it is fixed now. 
+
+4. We learned a great deal from this project. creating two sockets in client and connecting 
+it to two different servers was difficult to imagine but now after doing it, it doesnt
+seem that bad. 
